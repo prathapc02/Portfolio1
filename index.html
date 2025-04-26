@@ -32,7 +32,7 @@
 </head>
 
 <body class="index-page">
-
+  
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
@@ -61,25 +61,19 @@
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#certificate"><i class="bi bi-hdd-stack navicon"></i> Certificate</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
+      <div>
+        <a href="https://www.hitwebcounter.com" target="_blank" style="text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+          <span style="font-size: 15px;">Visiters:</span>
+          <img src="https://hitwebcounter.com/counter/counter.php?page=20512730&style=0005&nbdigits=5&type=ip&initCount=0" 
+               title="Website Visitor Counter" 
+               alt="Visitor Counter" 
+               border="0" 
+               width="70" 
+               height="15" />
+      </a>      
+    </div>
     </nav>
 
   </header>
@@ -90,13 +84,13 @@
     <section id="hero" class="hero section dark-background">
 
       <img src="assets/img/heroprofile.jpeg" alt="" data-aos="fade-in" class="">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Prathap C</h2>
         <p>I'm <span class="typed" data-typed-items="Developer, Artist, Sportsman, Photographer">Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
 
     </section><!-- /Hero Section -->
+
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -572,6 +566,11 @@
 
     </section><!-- /Contact Section -->
 
+
+    <footer>
+      <p id="visitor-count">Visitors:</p>
+    </footer>
+
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -605,9 +604,10 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
 </body>
 
 </html>
