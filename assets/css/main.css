@@ -589,7 +589,9 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
-.skills .progress {
+
+/* for the skills percentage display
+/*.skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -621,6 +623,64 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}*/
+
+/*just image representation*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.skills-section {
+  text-align: center;
+}
+
+.skills-section h2 {
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-item span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive: 2 columns on mobile */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*--------------------------------------------------------------
