@@ -173,6 +173,32 @@ h6 {
   color: white;
   text-decoration: none;
 }
+.cv-box {
+  border: 2px solid #00ADB5;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #f0f8fa;
+  box-shadow: 0 2px 6px rgba(0, 173, 181, 0.15);
+  margin: 20px auto;
+}
+
+.cv-button {
+  color: #00ADB5;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cv-button:hover {
+  background-color: #00ADB5;
+  color: white;
+  text-decoration: none;
+  padding: 4px 20px; /* Adds subtle padding on hover */
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
 
 
 
