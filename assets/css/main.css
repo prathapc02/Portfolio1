@@ -146,33 +146,7 @@ h6 {
   background: var(--accent-color);
 }
 
-.cv-box {
-  border: 2px solid #00ADB5;   /* Outer box border */
-  padding: 20px 40px;          /* Space inside the box */
-  display: inline-block;       /* Shrinks box to content size */
-  border-radius: 12px;         /* Rounded corners */
-  background-color: #f0f8fa;   /* Light subtle background */
-  box-shadow: 0 4px 10px rgba(0, 173, 181, 0.2); /* Soft teal shadow */
-  margin: auto;                /* Center horizontally */
-}
 
-.cv-button {
-  color: #00ADB5;
-  font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 10px 30px;
-  border: 2px solid #00ADB5;
-  border-radius: 8px;
-  transition: 0.3s ease;
-  display: inline-block;
-}
-
-.cv-button:hover {
-  background-color: #00ADB5;
-  color: white;
-  text-decoration: none;
-}
 .cv-box {
   border: 2px solid #00ADB5;
   padding: 8px 20px;
