@@ -146,25 +146,6 @@ h6 {
   background: var(--accent-color);
 }
 
-.cv-button {
-  color: #00ADB5;
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.cv-button:hover {
-  background-color: #00ADB5;
-  color: white;
-  text-decoration: none;
-  padding: 4px 20px; /* Adds subtle padding on hover */
-  border-radius: 6px;
-  transition: 0.3s ease;
-}
-
-
-
 
 @media (min-width: 1200px) {
   .header~main,
